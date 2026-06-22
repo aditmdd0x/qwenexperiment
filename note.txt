@@ -1,0 +1,46 @@
+# Ollama Notes
+
+## Install Ollama
+
+Mac:
+Download Ollama dari website resmi, install app-nya, lalu buka Terminal.
+
+Linux:
+curl -fsSL https://ollama.com/install.sh | sh
+
+## Run model
+
+ollama run qwen2.5-coder:3b
+ollama run qwen2.5-coder:7b
+ollama run qwen2.5-coder:14b
+ollama run qwen2.5-coder:32b
+
+## List downloaded models
+
+ollama list
+
+atau:
+
+ollama ls
+
+## Check running models / RAM usage
+
+ollama ps
+
+## Stop model from RAM
+
+ollama stop qwen2.5-coder:3b
+ollama stop qwen2.5-coder:7b
+ollama stop qwen2.5-coder:14b
+ollama stop qwen2.5-coder:32b
+
+## Remove downloaded model from storage
+
+ollama rm qwen2.5-coder:3b
+ollama rm qwen2.5-coder:7b
+ollama rm qwen2.5-coder:14b
+ollama rm qwen2.5-coder:32b
+
+## Exit chat
+
+/bye
